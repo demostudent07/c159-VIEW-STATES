@@ -66,7 +66,6 @@ AFRAME.registerComponent("tour", {
       opacity: 1,
     });
 
-    // c158 added 
     //Add cursor-listener component to the ring border entity to change it's color 
     //On Cursor 'mouseenter' and 'mouseleave' entity
     entityEl.setAttribute("cursor-listener", {});
